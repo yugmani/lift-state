@@ -28,7 +28,7 @@ class App extends Component {
           text={this.state.text}
           handleTextChange={this.handleTextChange}
         />
-        <ChildCompB />
+        <ChildCompB text={this.state.text} />
       </React.Fragment>
     );
   }
